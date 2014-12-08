@@ -1,0 +1,174 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*color: #757575;*/
+    font-family: helveticaneuelight;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #757575;
+}
+
+a image {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+section{
+    width: 1024px;
+    margin:0 auto ;
+}
+.search{
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #cccccc;
+    color: #757575;
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 2%;
+    width: 300px;
+}
+table{
+    width: 100%;
+}
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    min-width: 10%;
+    text-align: center;
+}
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+/*-----------------------------------
+*/
+.MainContainer{
+    width: 100%;
+}
+.MainContainer .Header{
+    width: 100%;
+    background: #757575;
+    padding: 12px 0;
+}
+.MainContainer .Header .Left{
+    float: left;
+}
+.MainContainer .Header .Left .logo{
+    font-size: 26px;
+}
+.MainContainer .Header .Right {
+    float: right;
+}
+.MainContainer .Header .Right ul li{
+    float: left;
+    margin-right: 20px;
+}
+.MainContainer .Header .Right ul li a{
+    color: #fff;
+    display: block;
+}
+
+.MainContainer .container{
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+}
+.MainContainer .container .Head{
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.MainContainer .container .FormContent{
+    width: 60%;
+    margin:0 auto ;
+}
+.MainContainer .container .FormContent ul li{
+    width: 100%;
+    position: relative;
+}
+.MainContainer .container .FormContent ul li > .text{
+    font-size: 16px;
+    margin-bottom: 5px;
+    /*display: none;*/
+}
+.MainContainer .container .FormContent ul li .overText{
+    display: none;
+    width: 200px;
+    border-radius: 4px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    background: #cccccc;
+}
+.MainContainer .container .FormContent ul li:hover .overText{
+    display: block;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+.MainContainer .container .FormContent ul li .overText .text{
+    color: #f76c4d;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+}
+.MainContainer .container .FormContent ul li input,textarea{
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #cccccc;
+    color: #757575;
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 2%;
+    width: 96%;
+}
+.MainContainer .container .FormContent ul li select{
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #cccccc;
+    color: #757575;
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 2%;
+    width: 100%;
+}
+.MainContainer .container .FormContent ul li .but{
+    background: #30bfd7;
+    color: #ffffff;
+    font-size: 17px;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin-right: 15px;
+    padding: 10px 2%;
+    width: 45%;
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4);
+}
+.MainContainer .container .FormContent ul li .but:hover{
+    background: #28a0b4;
+}
+
+/*........ flow tags ........ */
